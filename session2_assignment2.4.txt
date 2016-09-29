@@ -1,0 +1,27 @@
+2.4 Program to print highest of 3 numbers
+
+package session2corejava;
+import java.io.*;
+import java.util.*;
+public class highestofnum
+{
+	public static void main(String[] args)
+	{
+		int a,b,c;
+		Scanner s=new Scanner(System.in);
+		System.out.print("Enter the first number:");
+		a=s.nextInt();
+		System.out.print("Enter the second number:");
+		b=s.nextInt();
+		System.out.print("Enter the third number:");
+		c=s.nextInt();
+		
+		if(a>b && a>c)
+			System.out.print( a+" is greatest!");
+		if(b>a && b>c)
+			System.out.print( b+" is greatest");
+		else System.out.print(c+" is greatest");
+		
+	}
+
+}
